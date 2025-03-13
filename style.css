@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Configurações do Dark Mode */
 
 body {
@@ -7,8 +9,8 @@ body {
 }
 
 .dark-mode {
-        background-color: #1a1919;
-        color: #ffffff;
+    background-color: #1a1919;
+    color: #ffffff;
 }
 
 a {
@@ -31,19 +33,26 @@ a:hover {
 
 /* Configurações do site */
 
-h1{
-    text-align: center;
 
+body {
+    font-family: "Noto Sans Display", sans;
 }
 
-h2{
+h1 {
     text-align: center;
-}
-.explicacao{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
 }
 
-.disciplinas{
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+    text-align: center;
+}
+
+.explicacao {
+    text-align: center;
+}
+
+.disciplinas {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
 }
