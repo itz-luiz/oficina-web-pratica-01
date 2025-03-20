@@ -1,41 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* Configurações do Dark Mode */
-
-body {
-    background-color: #ffffff;
-    color: #000000;
-    transition: background 0.3s, color 0.3s;
-}
-
-.dark-mode {
-    background-color: #1a1919;
-    color: #ffffff;
-}
-
-a {
-    color: #1e90ff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ffcc00;
-    text-decoration: underline;
-}
-
-.dark-mode a {
-    color: #00bfff;
-}
-
-.dark-mode a:hover {
-    color: #ff0000;
-}
-
 /* Configurações do site */
-
 
 body {
     font-family: "Noto Sans Display", sans;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 1px 0;
+    color: white;
+    font-size: 18px;
+    height: 72px;
 }
 
 h1 {
@@ -47,12 +24,44 @@ h2 {
     text-align: center;
 }
 
-.explicacao {
+
+.curso .explicacao {
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     text-align: center;
+    margin: 0 auto;
+}
+
+.curso {
+    margin-bottom: 3%;
 }
 
 .disciplinas {
-    display: inline-block;
-    justify-content: center;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 23%;
+    padding: 20px;
     margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.7);
+    border-radius: 10px;
+}
+
+.disciplinas h3 {
+    justify-content: center;
+    display: grid;
+}
+
+.disciplinas ul {
+    justify-content: center;
+    display: grid;
+}
+
+a:visited {
+    color: #00e;
 }
