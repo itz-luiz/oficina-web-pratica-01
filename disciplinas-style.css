@@ -51,26 +51,29 @@ h1 {
     box-shadow: 0 0 20px white;
 }
 
-h1{
+h2{
     text-align: center;
+    margin-bottom: 30px;
 }
 
-body{
-    position: relative;
+p {
+    margin: 0 5%;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
+ul {
+    margin: 20px 5%;
 }
 
-.top-left {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+.bold {
+    font-weight: 600;
 }
 
-.top-right {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+.imagem{
+    display: flex;
+    margin: 35px auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 676px;
+    height: 381px;
 }
