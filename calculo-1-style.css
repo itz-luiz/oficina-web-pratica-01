@@ -3,28 +3,74 @@
 
 body {
     font-family: "Noto Sans Display", sans;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0 5%;
+}
+
+h1 {
+    border-left: 2px solid #ccc;
+    padding-left: 15px;
+}
+
+.voltar {
+    position: absolute;
+    padding: 5px 15px;
+    right: 5%;
+    margin-top: -6px;
+}
+
+.voltar a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.voltar button {
+    background-color: purple;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px purple;
+}
+
+.voltar button:hover {
+    background-color: #f4f4f4;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 20px white;
 }
 
 h1{
     text-align: center;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body{
     position: relative;
 }
 
-.top-left{
-    position: absolute;
-    left: 0px;
-    top: 0px;
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.top-right{
+.top-left {
     position: absolute;
-    right: 0px;
     top: 0px;
+    left: 0px;
+}
+
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
